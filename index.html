@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS     -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div>
+        <!-- bài tập -->
+        <div class="">
+            <div class="container py-3 bai">
+                <div>
+                    <h1>Bài tập</h1>
+                    <div class="col-6 bakhoi">
+                        <p>- Đầu vào:</p>
+                        <p>+ Tạo biến tenPhim, giaVeNguoiLon, giaVeTreEm, soVeNguoiLon, soVeTreEm, phanTram, và gán để
+                            nhập giá trị tương ứng</p>
+                        <p>- Xử lý:</p>
+                        <p>+ soVeDaBan = soVeNguoiLon + soVeTreEm</p>
+                        <p>+ doanhThu = soVeNguoiLon * giaVeNguoiLon + soVeTreEm * giaVeTreEm</p>
+                        <p>+ tongTienTuThien = doanhThu * (phanTram / 100)</p>
+                        <p>+ tongThuConLai = doanhThu - tongTienTuThien</p>
+                        <p>- Kết quả:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Tiền quyên góp cho tổ chức từ thiện</div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label>Tên Phim</label>
+                                    <input type="" id="tenPhim" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Giá vé người lớn</label>
+                                    <input type="number" id="giaVeNguoiLon" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Giá vé trẻ em</label>
+                                    <input type="number" id="giaVeTreEm" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Số vé người lớn đã bán</label>
+                                    <input type="number" id="soVeNguoiLon" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Số vé trẻ em đã bán</label>
+                                    <input type="number" id="soVeTreEm" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Tỷ lệ phần trăm từ thiện</label>
+                                    <input type="number" id="phanTram" class="form-control" />
+                                </div>
+                                <button id="btnTinh" class="btn btn-danger">Tính</button>
+                            </div>
+                            <div id="ketqua" class="card-footer text-muted">👉</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+
+        <!-- JS -->
+        <script src="./index.js"></script>
+</body>
+
+</html>
